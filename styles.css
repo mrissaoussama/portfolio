@@ -301,7 +301,6 @@ footer p {
   object-fit: contain;
 }
 
-/* Adjustments for Light Mode */
 .light-mode .project-description p {
   color: #666;
 }
@@ -309,3 +308,12 @@ footer p {
 .light-mode .project-description img {
   border: 1px solid #ddd;
 }
+.profilepicture {
+  width: 50%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  margin: 20px auto 0 auto;
+}
+
