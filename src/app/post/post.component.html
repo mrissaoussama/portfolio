@@ -1,0 +1,19 @@
+<div class="review-card">
+  <div class="profile-section">
+    <img [src]="profilePhoto" alt="Profile Photo" class="profile-photo">
+    <div class="profile-info">
+      <h4 class="profile-name">{{ name }}</h4>
+      <p class="company-name">{{ company }}</p>
+    </div>
+  </div>
+
+  <div class="rating-section">
+    <span *ngFor="let star of [1, 2, 3, 4, 5]; let i = index" class="star">
+      <i [class.filled]="i < rating" class="fa fa-star"></i>
+    </span>
+  </div>
+
+  <div class="review-description">
+    <p>{{ description }}</p>
+  </div>
+</div>

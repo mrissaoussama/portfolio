@@ -1,0 +1,9 @@
+.reviews-section {
+  display: flex;
+  flex-direction: row; /* Align cards horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap if they exceed the container width */
+  justify-content: center; /* Center all cards */
+  align-items: flex-start; /* Align cards to the start of the row */
+  gap: 20px; /* Add consistent spacing between cards */
+  padding: 20px;
+}
